@@ -32,3 +32,12 @@ onEvent('recipes', (event) => {
               });
     });
 });
+//
+{
+    "type":"immersiveengineering:blueprint",
+    "inputs":[
+        {"item":"item"},
+        {"tag":"tag"}],
+    "category":"category",
+    "result":{"item":"item"}
+}
