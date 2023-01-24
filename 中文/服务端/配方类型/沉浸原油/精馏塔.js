@@ -18,3 +18,25 @@ onEvent('recipes', (event) => {
         event.custom(recipe).id(recipe.id);
     });
 });
+//
+{
+  "type": "immersivepetroleum:distillation",
+  "byproducts": [
+    {
+      "item": "item",
+      "chance": "value"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "fluid",
+      "amount": value
+    }
+  ],
+  "input": {
+    "tag": "tag",
+    "amount": value
+  },
+  "time": value,
+  "energy": value
+}
