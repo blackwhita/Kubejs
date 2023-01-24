@@ -23,3 +23,22 @@ onEvent('recipes', (event) => {
         event.custom(recipe).id(recipe.id);
     });
 });
+//
+{
+  "output": "{FluidName:"fluid",Amount:value}",
+  "rarity": [
+    {
+      "whitelist": {},
+      "blacklist": {},
+      "depth_min": value,
+      "depth_max": value,
+      "weight": value
+    }
+  ],
+  "pointer": value,
+  "catalyst": {
+    "item": "item"
+  },
+  "entity": "entity",
+  "type": "industrialforegoing:laser_drill_fluid"
+}
