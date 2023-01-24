@@ -23,3 +23,14 @@ onEvent('recipes', (event) => {
         }
     });
 });
+//
+{
+  "type": "botania:pure_daisy",
+  "input": {
+    "type": "block",//tag//fluid
+    "block": "blcok"
+  },
+  "output": {
+    "name": "item"
+  }
+}
