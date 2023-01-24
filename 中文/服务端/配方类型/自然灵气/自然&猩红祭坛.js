@@ -23,3 +23,19 @@ aura_type=(
 'naturesaura:nether'
 )
 */
+//
+{
+    "type": "naturesaura:altar",
+    "input": {
+        "item": "item"
+    },
+    "output": {
+        "item": "item"
+    },
+    "aura_type": "naturesaura:overworld",// "aura_type": "naturesaura:nether",
+    "catalyst": {
+        "item": "item"
+    },
+    "aura": value,
+    "time": value
+}
