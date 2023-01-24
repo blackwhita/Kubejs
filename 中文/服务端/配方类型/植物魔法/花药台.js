@@ -41,3 +41,5 @@ onEvent('recipes', (event) => {
     }
   ]
 }
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+event.recipes.botania.petal_apothecary("output", ["input"])
