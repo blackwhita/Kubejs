@@ -1,0 +1,10 @@
+{
+  "input": {
+    "item": "item"
+  },
+  "result": "item",//吸收物品的种类
+  "breakChance": 0.005,//消耗机会
+  "output": "{FluidName:"fluid",Amount:value}",
+  "defaultRecipe": false,//默认合成
+  "type": "industrialforegoing:fluid_extractor"
+}
