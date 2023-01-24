@@ -20,3 +20,25 @@ onEvent('recipes', (event) => {
         }
     });
 });
+//
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "item"
+    },
+    {
+      "fluidTag": "fluidTag",
+      "amount": value
+    }
+  ],
+  "results": [
+    {
+      "fluid": "fluid",
+      "amount": value
+    }
+  ],
+  "heatRequirement": "heated"
+}
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+event.recipes.createMixing(output[], input[])
