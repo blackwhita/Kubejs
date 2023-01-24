@@ -23,3 +23,18 @@ onEvent('recipes', (event) => {
         }
     });
 });
+//
+{
+  "type": "botania:terra_plate",
+  "mana": value,
+  "ingredients": [
+    {
+      "item": "item"
+    }
+  ],
+  "result": {
+    "item": "item"
+  }
+}
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+event.recipes.botania.terra_plate("output", ["input1", "input2"], value)
