@@ -17,3 +17,15 @@ onEvent('recipes', (event) => {
         event.custom(recipe).id(recipe.id);
     });
 });
+//
+{
+    "type": "naturesaura:animal_spawner",
+    "ingredients": [
+        {
+            "item": "item"
+        }
+    ],
+    "entity": "entity",
+    "aura": value,
+    "time": value
+}
