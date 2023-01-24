@@ -43,3 +43,49 @@ onEvent('recipes', (event) => {
         event.custom(constructed_recipe).id(recipe.id);
     });
 });
+//
+{
+  "type": "astralsorcery:altar",
+  "altar_type": 3,
+  "duration": value,
+  "starlight": value,
+  "pattern": [
+    "AAAAA",
+    "AAAAA",
+    "AAAAA",
+    "AAAAA",
+    "AAAAA",
+  ],
+  "key": {
+    "A": {
+      "tag": tag"
+    }
+  },
+  "recipe_class": "astralsorcery:constellation_base_nbt_copy",
+  "output": [
+    {
+      "item": "item",
+      "count": value
+    }
+  ],
+  "options": {//?
+    "copy_nbt_from_items_matching": [
+      {
+        "item": "item"
+      }
+    ],
+    "constellation": "constellation"
+  },
+  "focus_constellation": "focus_constellation",
+  "relay_inputs": [
+    {
+      "tag": "tag"
+    },
+    {
+      "item": "item"
+    }
+  ],
+  "effects": [
+    "effects"
+  ]
+}
