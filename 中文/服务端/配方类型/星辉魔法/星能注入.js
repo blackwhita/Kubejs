@@ -27,3 +27,20 @@ onEvent('recipes', (event) => {
             .id(recipe.id);
     });
 });
+//
+{
+  "type": "astralsorcery:infuser",
+  "fluidInput": "fluid",
+  "input": {
+    "tag": "tag"
+  },
+  "output": {
+    "item": "item",
+    "count": value
+  },
+  "consumptionChance": value,
+  "duration": value,
+  "consumeMultipleFluids": true/false,
+  "acceptChaliceInput": true/false,
+  "copyNBTToOutputs": true/false
+}
