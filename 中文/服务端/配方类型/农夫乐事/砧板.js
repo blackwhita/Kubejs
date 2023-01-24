@@ -2,20 +2,17 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "minecraft:acacia_wood"
+      "item": "item"
     }
   ],
   "tool": {
-    "type": "farmersdelight:tool",
-    "tool": "axe"
+    "type": "tool_type",
+    "tool": "tool"
   },
   "result": [
     {
-      "item": "minecraft:stripped_acacia_wood"
-    },
-    {
-      "item": "farmersdelight:tree_bark"
+      "item": "item"
     }
   ],
-  "sound": "minecraft:item.axe.strip"
+  "sound": "sound"//需要盛的器具
 }
