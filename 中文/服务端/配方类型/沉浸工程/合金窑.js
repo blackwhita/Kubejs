@@ -11,3 +11,17 @@ onEvent('recipes', (event) => {
         event.recipes.immersiveengineering.alloy(recipe.output, recipe.inputs[0], recipe.inputs[1]).id(recipe.id);
     });
 });
+//
+{
+    "type":"immersiveengineering:alloy",
+    "time":value,
+    "result":{
+        "count":value,
+        "base_ingredient":{"tag":"tag"}},
+    "conditions":[
+        {"value":{"tag":"tag","type":"forge:tag_empty"},"type":"forge:not"},
+        {"value":{"tag":"tag","type":"forge:tag_empty"},"type":"forge:not"
+        }],
+    "input0":{"tag":"tag"},
+    "input1":{"tag":"tag"}
+}
