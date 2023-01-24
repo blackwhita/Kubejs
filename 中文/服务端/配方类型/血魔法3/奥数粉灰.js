@@ -20,3 +20,33 @@ onEvent('recipes', (event) => {
         }
     });
 });
+//
+{
+  "type": "bloodmagic:arc",
+  "input": {
+    "tag": "tag"
+  },
+  "tool": {
+    "tag": "toolTag"
+  },
+  "addedoutput": [
+    {
+      "chance": value,
+      "type": {
+        "item": "item"
+      }
+    },
+    {
+      "chance": value,
+      "type": {
+        "item": "item"
+      }
+    }
+  ],
+  "output": {
+    "item": "item"
+  },
+  "consumeingredient": true/false
+}
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+event.recipes.bloodmagic.arc(output, input, tool, [addedOutput]).consumeIngredient(boolean).outputFluid(fluid)
