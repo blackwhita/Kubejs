@@ -20,3 +20,19 @@ onEvent('recipes', (event) => {
             .id(recipe.id);
     });
 });
+//
+{
+  "type": "bloodmagic:altar",
+  "input": {
+    "item": "item"
+  },
+  "output": {
+    "item": "item"
+  },
+  "upgradeLevel": value,
+  "altarSyphon": value,
+  "consumptionRate": value,
+  "drainRate": value
+}
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+event.recipes.bloodmagic.altar(output, input).upgradeLevel(value).altarSyphon(value).consumptionRate(value).drainRate(value)
