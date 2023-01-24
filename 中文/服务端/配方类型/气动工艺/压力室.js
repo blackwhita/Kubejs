@@ -27,3 +27,18 @@ onEvent('recipes', (event) => {
             .id(recipe.id);
     });
 });
+//
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "tag": "tag"
+    }
+  ],
+  "pressure": value,
+  "results": [
+    {
+      "item": "item"
+    }
+  ]
+}
