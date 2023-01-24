@@ -25,3 +25,17 @@ program=(
     laser
 )
 */
+//
+{
+  "type": "pneumaticcraft:assembly_laser",// "type": "pneumaticcraft:assembly_drill"
+  "input": {
+    "type": "pneumaticcraft:stacked_item",
+    "item": "item",
+    "count": value
+  },
+  "result": {
+    "item": "item",
+    "count": value
+  },
+  "program": "program"
+}
