@@ -19,3 +19,19 @@ onEvent('recipes', (event) => {
         event.custom(recipe).id(recipe.id);
     });
 });
+//
+{
+    "type": "naturesaura:tree_ritual",
+    "ingredients": [
+        {
+            "item": "item"
+        }
+    ],
+    "sapling": {
+        "item": "tree"
+    },
+    "output": {
+        "item": "item"
+    },
+    "time": value
+}
