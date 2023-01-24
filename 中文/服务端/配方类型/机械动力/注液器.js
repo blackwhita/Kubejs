@@ -12,3 +12,24 @@ onEvent('recipes', (event) => {
         event.recipes.create.filling(recipe.output, [recipe.fluid, recipe.input]).id(recipe.id);
     });
 });
+//
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "item"
+    },
+    {
+      "fluid": "fluid",
+      "nbt": {},
+      "amount": value
+    }
+  ],
+  "results": [
+    {
+      "item": "item"
+    }
+  ]
+}
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+event.recipes.createFilling(output[], input[])
