@@ -34,3 +34,18 @@ onEvent('recipes', (event) => {
             .id(recipe.id);
     });
 });
+//
+{
+  "input": [
+    {
+      "item": "item"
+    }
+  ],
+  "inputFluid": "{FluidName:"fluid",Amount:value}",
+  "processingTime": value,
+  "output": {
+    "item": "item",
+    "count": value
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+}
