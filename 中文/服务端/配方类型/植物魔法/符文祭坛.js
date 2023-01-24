@@ -49,3 +49,5 @@ onEvent('recipes', (event) => {
     }
   ]
 }
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+event.recipes.botania.runic_altar("uoput", ["input1", "input2"], value)
