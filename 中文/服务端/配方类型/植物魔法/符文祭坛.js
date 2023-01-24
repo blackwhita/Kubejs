@@ -36,3 +36,16 @@ onEvent('recipes', (event) => {
         }
     });
 });
+//
+{
+  "type": "botania:runic_altar_head",
+  "output": {
+    "item": "item"
+  },
+  "mana": value,
+  "ingredients": [
+    {
+      "item": "item"
+    }
+  ]
+}
