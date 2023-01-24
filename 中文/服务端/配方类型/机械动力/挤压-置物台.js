@@ -11,3 +11,17 @@ onEvent('recipes', (event) => {
         event.recipes.create.pressing(recipe.output, recipe.inputs).id(recipe.id);
     });
 });
+//
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "tag"
+    }
+  ],
+  "results": [
+    {
+      "item": "item"
+    }
+  ]
+}
