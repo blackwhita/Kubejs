@@ -24,3 +24,10 @@ onEvent('recipes', (event) => {
         event.custom(recipe).id(recipe.id);
     });
 });
+//
+{
+  "type": "ars_nouveau:glyph_recipe",
+  "tier": "tier",
+  "input": "item",
+  "output": "itemr"
+}
