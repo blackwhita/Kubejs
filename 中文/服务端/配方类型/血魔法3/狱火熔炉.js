@@ -22,3 +22,26 @@ onEvent('recipes', (event) => {
             .id(recipe.id);
     });
 });
+//
+{
+  "type": "bloodmagic:soulforge",
+  "input0": {
+    "tag": "tag"
+  },
+  "input1": {
+    "item": "item"
+  },
+  "input2": {
+    "tag": "item"
+  },
+  "input3": {
+    "item": "item"
+  },
+  "output": {
+    "item": "item"
+  },
+  "minimumDrain": value,
+  "drain": value
+}
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+event.recipes.bloodmagic.soulforge(output, [input]).minimumDrain(value).drain(value)
