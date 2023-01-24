@@ -15,3 +15,26 @@ onEvent('recipes', (event) => {
         event.custom(recipe).id(recipe.id);
     });
 });
+//
+{
+  "type": "pneumaticcraft:fluid_mixer",
+  "input1": {
+    "type": "pneumaticcraft:fluid",
+    "tag": "tag",
+    "amount": value
+  },
+  "input2": {
+    "type": "pneumaticcraft:fluid",
+    "tag": "tag",
+    "amount": value
+  },
+  "fluid_output": {
+    "fluid": "fluid",
+    "amount": value
+  },
+  "item_output": {
+    "item": "item"
+  },
+  "pressure": value,
+  "time": value
+}
