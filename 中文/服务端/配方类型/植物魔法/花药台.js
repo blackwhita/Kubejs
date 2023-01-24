@@ -29,3 +29,15 @@ onEvent('recipes', (event) => {
         event.custom(recipe).id(recipe.id);
     });
 });
+//
+{
+  "type": "botania:petal_apothecary",
+  "output": {
+    "item": "item"
+  },
+  "ingredients": [
+    {
+      "tag": "tag"
+    }
+  ]
+}
