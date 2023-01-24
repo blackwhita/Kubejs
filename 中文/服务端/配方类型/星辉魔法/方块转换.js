@@ -13,3 +13,24 @@ onEvent('recipes', (event) => {
         event.custom(recipe).id(recipe.id);
     });
 });
+//
+{
+  "type": "astralsorcery:block_transmutation",
+  "input": [
+    {
+      "block": "block",
+      "display": {
+        "item": "item",
+        "count": value
+      }
+    }
+  ],
+  "output": {
+    "block": "block"
+  },
+  "display": {
+    "item": "item",
+    "count": value
+  },
+  "starlight": value
+}
