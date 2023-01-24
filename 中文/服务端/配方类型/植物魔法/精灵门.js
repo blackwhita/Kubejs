@@ -34,3 +34,5 @@ onEvent('recipes', (event) => {
     }
   ]
 }
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+event.recipes.botania.elven_trade(["output1", "output2"], ["input1", "input2"])
