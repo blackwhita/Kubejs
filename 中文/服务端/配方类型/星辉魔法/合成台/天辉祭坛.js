@@ -39,3 +39,32 @@ onEvent('recipes', (event) => {
         event.custom(constructed_recipe).id(recipe.id);
     });
 });
+//
+{
+  "type": "astralsorcery:altar",
+  "altar_type": 2,
+  "duration": value,
+  "starlight": value,
+  "pattern": [
+    "AA_AA",
+    "AAAAA",
+    "_AAA_",
+    "AA_AA",
+    "AA_AA"
+  ],
+  "key": {
+    "A": {
+      "item": "item"
+    }
+  },
+  "recipe_class": "astralsorcery:trait_upgrade",
+  "output": [
+    {
+      "item": "item",
+      "count": value
+    }
+  ],
+  "effects": [
+    "effects"
+  ]
+}
