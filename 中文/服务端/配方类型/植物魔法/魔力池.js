@@ -50,3 +50,5 @@ onEvent('recipes', (event) => {
     "block": "block"
   }
 }
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+event.recipes.botania.mana_infusion("output", "input", value, "block")
