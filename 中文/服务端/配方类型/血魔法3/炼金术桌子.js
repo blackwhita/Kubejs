@@ -20,3 +20,21 @@ onEvent('recipes', (event) => {
             .id(recipe.id);
     });
 });
+//
+{
+  "type": "bloodmagic:alchemytable",
+  "input": [
+    {
+      "tag": "tag"
+    }
+  ],
+  "output": {
+    "item": "item",
+    "count": value
+  },
+  "syphon": value,
+  "ticks": value,
+  "upgradeLevel": value
+}
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+event.recipes.bloodmagic.alchemytable(output, [input]).syphon(value).ticks(value).upgradeLevel(value)
