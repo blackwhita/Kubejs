@@ -14,3 +14,21 @@ onEvent('recipes', (event) => {
         event.custom(recipe).id(recipe.id);
     });
 });
+//
+{
+  "type": "pneumaticcraft:refinery",
+  "input": {
+    "type": "pneumaticcraft:fluid",
+    "tag": "fluid",
+    "amount": value
+  },
+  "temperature": {
+    "min_temp": value
+  },
+  "results": [
+    {
+      "fluid": fluid",
+      "amount": value
+    }
+  ]
+}
