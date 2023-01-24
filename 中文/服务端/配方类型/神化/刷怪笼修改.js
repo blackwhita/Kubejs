@@ -25,3 +25,22 @@ onEvent('recipes', (event) => {
         event.custom(recipe).id(recipe.id);
     });
 });
+//
+{
+	"type": "apotheosis:spawner_modifier",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "spawner"
+	}],
+	"mainhand": {
+		"item": "item"
+	},
+	"offhand": {
+		"item": "item"
+	},
+	"consumes_offhand": true/false,
+	"stat_changes": [{
+		"id": "mod_id",
+		"value": true/false
+	}]
+}
