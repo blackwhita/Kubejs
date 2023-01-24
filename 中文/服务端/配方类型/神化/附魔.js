@@ -21,3 +21,28 @@ onEvent('server.datapack.high_priority', (event) => {
         event.addJson(`apotheosis:enchanting_stats/${enchantingBlock.block.replace(':', '_')}.json`, enchantingBlock);
     });
 });
+//
+{
+	"type": "apotheosis:keep_nbt_enchanting",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "enchantment"
+	}],
+	"input": {
+		"item": "item"
+	},
+	"requirements": {
+		"eterna": value,
+		"quanta": value,
+		"arcana": value
+	},
+	"max_requirements": {
+		"eterna": value,
+		"quanta": value,
+		"arcana": value
+	},
+	"result": {
+		"item": "item",
+		"count": value
+	}
+}
