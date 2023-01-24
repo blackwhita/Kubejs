@@ -123,3 +123,71 @@ onEvent('recipes', (event) => {
             .id(recipe.id);
     });
 });
+//
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "item"
+  },
+  "transitionalItem": {
+    "item": "item"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "item"
+        },
+        {
+          "tag": "tag"
+        }
+      ],
+      "results": [
+        {
+          "item": "item"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "item"
+        }
+      ],
+      "results": [
+        {
+          "item": "item"
+        }
+      ],
+      "processingTime": value
+    }
+  ],
+  "results": [
+    {
+      "item": "item",
+      "count": value,
+      "chance": value
+    },
+    {
+      "item": "item",
+      "chance": value
+    },
+    {
+      "item": "item"
+    },
+    {
+      "item": "item"
+    },
+    {
+      "item": "item"
+    },
+    {
+      "item": "item"
+    }
+  ],
+  "loops": value
+}
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+event.recipes.createSequencedAssembly(output[], input, sequence[]).transitionalItem(item).loops(int)
