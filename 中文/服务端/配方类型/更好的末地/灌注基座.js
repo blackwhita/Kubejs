@@ -25,3 +25,19 @@ onEvent('recipes', (event) => {
             .id(recipe.id);
     });
 });
+//
+{
+  "type": "betterendforge:infusion",
+  "input": 
+  {
+     "item": "item"
+  },
+  "output": "item",
+  "time": value,
+  "catalysts": [
+    {
+      "item": "item",
+      "index": 0//0-7
+    }
+  ]
+}
