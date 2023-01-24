@@ -24,3 +24,15 @@ onEvent('recipes', (event) => {
         }
     });
 });
+//
+{
+    "type":"immersiveengineering:arc_furnace",
+    "results":[{
+        "count":value,
+        "base_ingredient":{"tag":"tag"}
+        }],
+    "additives":[{"tag":"tag"}],
+    "input":{"tag":"tag"},
+    "time":value,
+    "energy":value
+}
