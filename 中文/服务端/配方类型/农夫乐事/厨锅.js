@@ -20,3 +20,20 @@ onEvent('recipes', (event) => {
         event.custom(recipe).id(recipe.id);
     });
 });
+//
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "item"
+    }
+  ],
+  "result": {
+    "item": "item"
+  },
+  "container": {
+    "item": "item"
+  },
+  "experience": value,
+  "cookingtime": value
+}
