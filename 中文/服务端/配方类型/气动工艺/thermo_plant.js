@@ -19,3 +19,29 @@ onEvent('recipes', (event) => {
         event.custom(recipe).id(recipe.id);
     });
 });
+//
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "item_input": {
+    "tag": "tag"
+  },
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "tag": "tag",
+    "amount": value
+  },
+  "item_output": {
+    "item": "item"
+  },
+  "fluid_output": {
+    "type": "pneumaticcraft:fluid",
+    "tag": "tag",
+    "amount": value
+  },
+  "temperature": {
+    "min_temp": value
+  },
+  "pressure": value,
+  "speed": value,
+  "exothermic": true/false
+}
