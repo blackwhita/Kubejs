@@ -22,4 +22,18 @@ onEvent('recipes', (event) => {
             .id(recipe.id);
     });
 });
-
+//
+{
+  "type": "betterendforge:alloying",
+  "ingredients": [
+    {
+      "item": "item"
+    },
+    {
+      "item": "item"
+    }
+  ],
+  "result": "item",
+  "experience": value,
+  "smelttime": value
+}
