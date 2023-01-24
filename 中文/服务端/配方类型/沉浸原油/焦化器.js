@@ -19,3 +19,26 @@ onEvent('recipes', (event) => {
         event.custom(recipe).id(recipe.id);
     });
 });
+//
+{
+  "type": "immersivepetroleum:coker",
+  "result": {
+    "item": "item"
+  },
+  "resultfluid": {
+    "tag": "tag",
+    "amount": value
+  },
+  "input": {
+    "count": value,
+    "base_ingredient": {
+      "tag": "tag"
+    }
+  },
+  "inputfluid": {
+    "tag": "tag",
+    "amount": value
+  },
+  "time": value,
+  "energy": value
+}
