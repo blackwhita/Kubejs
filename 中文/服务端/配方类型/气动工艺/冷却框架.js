@@ -23,3 +23,16 @@ onEvent('recipes', (event) => {
             .id(recipe.id);
     });
 });
+//
+{
+  "type": "pneumaticcraft:heat_frame_cooling",
+  "input": {
+    "type": "pneumaticcraft:fluid",
+    "tag": "tag",
+    "amount": value
+  },
+  "max_temp": value,
+  "result": {
+    "item": "item"
+  }
+}
