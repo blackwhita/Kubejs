@@ -13,3 +13,25 @@ onEvent('recipes', (event) => {
         event.recipes.create.mechanical_crafting(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
     });
 });
+//
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA",
+    "AAA",
+    "AAA",
+  ],
+  "key": {
+    "A": {
+      "tag": "tag"
+    }
+  },
+  "result": {
+    "item": "item"
+  },
+  "acceptMirrored": true/false
+}
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+event.recipes.createMechanicalCrafting(output, pattern[], {合成键值})
