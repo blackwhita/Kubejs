@@ -15,3 +15,17 @@ onEvent('recipes', (event) => {
         event.custom(recipe).id(recipe.id);
     });
 });
+//
+{
+  "type": "pneumaticcraft:heat_properties",
+  "block": "block",
+  "temperature": value,
+  "thermalResistance": value,
+  "heatCapacity": value,
+  "transformHot": {
+    "block": "block"
+  },
+   "transformCold": { 
+    "block": 'block' 
+  }
+}
