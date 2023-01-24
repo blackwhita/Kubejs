@@ -19,3 +19,7 @@ onEvent('recipes', (event) => {
         event.custom(recipe).id(recipe.id);
     });
 });
+onEvent('recipes', (event) => {
+    recipes.type='powah:energizing';
+    event.custom(ingredients: [{ tag: 'tag' },{ item: 'item' }],energy: value,result: {item: 'item',count: value},id: 'id')
+});
