@@ -34,3 +34,5 @@ onEvent('recipes', (event) => {
     "name": "item"
   }
 }
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+event.recipes.botania.pure_daisy("output", "input", value)
