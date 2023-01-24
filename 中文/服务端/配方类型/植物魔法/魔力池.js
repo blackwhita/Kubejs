@@ -34,3 +34,19 @@ onEvent('recipes', (event) => {
         }
     });
 });
+//
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "item"
+  },
+  "output": {
+    "item": "item"
+  },
+  "mana": value,
+  "group": "gruop",
+  "catalyst": {
+    "type": "block",
+    "block": "block"
+  }
+}
