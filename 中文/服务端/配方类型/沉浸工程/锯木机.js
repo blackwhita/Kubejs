@@ -14,3 +14,17 @@ onEvent('recipes', (event) => {
             .id(recipe.id);
     });
 });
+//
+{
+    "type":"immersiveengineering:sawmill",
+    "secondaries":[
+        {"output":{"tag":"tag"},"stripping":true/fales}
+        ],
+    "result":{"item":"item","count":value},
+    "energy":value,
+    "input":[
+        {"item":"item"},
+        {"item":"item"}
+        ],
+    "stripped":{"item":"item"}
+}
