@@ -20,3 +20,17 @@ onEvent('recipes', (event) => {
             .id(recipe.id);
     });
 });
+//
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "item"
+    }
+  ],
+  "output": [
+    {
+      "item": "item"
+    }
+  ]
+}
