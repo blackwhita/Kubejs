@@ -39,3 +39,31 @@ onEvent('recipes', (event) => {
         event.custom(constructed_recipe).id(recipe.id);
     });
 });
+{
+  "type": "astralsorcery:altar",
+  "altar_type": 0,
+  "duration": value,
+  "starlight": value,
+  "pattern": [
+    "_____",
+    "_AAA_",
+    "_AAA_",
+    "_AAA_",
+    "_____"
+  ],
+  "key": {
+    "A": {
+      "item": "item"
+    }
+  },
+  "recipe_class": "astralsorcery:attunement_upgrade",
+  "output": [
+    {
+      "item": "item",
+      "count": value
+    }
+  ],
+  "effects": [
+    "effects"
+  ]
+}
