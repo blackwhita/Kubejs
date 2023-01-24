@@ -12,3 +12,11 @@ onEvent('recipes', (event) => {
         event.recipes.immersiveengineering.blast_furnace(recipe.output, recipe.input, recipe.slag).id(recipe.id);
     });
 });
+//
+{
+    "type":"immersiveengineering:blast_furnace",
+    "result":{"tag":"tagl"},
+    "input":{"tag":"tag"},
+    "slag":{"tag":"tag"},
+    "time":value
+}
