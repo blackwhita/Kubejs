@@ -1,0 +1,17 @@
+{
+	"has_ceiling": true 或 false,  该维度是否拥有一个基岩天花板，影响内部的算法，与实际是否拥有基岩天花板无关 
+	"logical_height": 数值,  玩家使用紫颂果或下界传送门可以到达的最大高度 
+	"bed_works": true 或 false,  玩家是否可以使用床 
+	"respawn_anchor_works": true 或 false,  玩家是否可以使用重生锚 
+	"has_raids": true 或 false,  带有不祥之兆的玩家是否可以触发袭击 
+	"has_skylight": true 或 false,  该维度是否有天空光照 
+	"ambient_light": 0~1 之间的数值,  该维度拥有多少环境光 
+	"natural": true 或 false,  当为 false 时，指南针会随机转动；当为 true 时，下界传送门会生成僵尸猪灵 
+	"piglin_safe：true 或 false,  猪灵和疣猪兽是否不会僵尸化 
+	"coordinate_scale": 数值,  当前维度坐标放缩倍率，影响下界传送门和 execute in 指令使用相对坐标/局部坐标的情形 
+	"ultrawarm": true 或 false,  维度是否表现得类似于下界水会蒸发，湿海绵会干。这也会使得熔岩流动更快、扩散更远 
+	"fixed_time": 0~24000 之间的整数,  可选，游戏内的昼夜时间固定值, 缺省则有日夜循环 
+	"min_y": 数值,  此维度中可以存在方块的最低高度 
+	"height": 不超过4096的16的倍数,  此维度中可以存在方块的总高度。维度中可以存在方块的最大高度的值等于min_y与height值之和 
+	"infiniburn": "方块标签命名空间ID"  决定该维度中火可以在什么方块上永久燃烧 
+}
