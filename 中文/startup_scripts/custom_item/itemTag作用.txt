@@ -1,0 +1,25 @@
+minecraft:boats	这些物品可以放入熔炉的燃料槽，并重置燃烧时间为 1200 刻
+minecraft:banners	这些物品可以放入熔炉的燃料槽，并重置燃烧时间为 300 刻
+minecraft:logs
+minecraft:planks
+minecraft:wooden_pressure_plates
+minecraft:wooden_stairs
+minecraft:wooden_trapdoors
+minecraft:wooden_buttons
+minecraft:signs	这些物品可以放入熔炉的燃料槽，并重置燃烧时间为 200 刻
+minecraft:wooden_doors
+minecraft:wooden_slabs	这些物品可以放入熔炉的燃料槽，并重置燃烧时间为 150 刻
+minecraft:saplings	这些物品可以放入熔炉的燃料槽，并重置燃烧时间为 100 刻
+minecraft:wool
+minecraft:carpets	这些物品可以放入熔炉的燃料槽，并重置燃烧时间为 67 刻
+minecraft:non_flammable_wood	这些物品不能被用作熔炉的燃料
+minecraft:piglin_loved	成年猪灵会捡起这些物品
+minecraft:piglin_repellents	猪灵不会捡起这些物品
+minecraft:flowers	这些物品可以用来繁殖蜜蜂
+minecraft:small_flowers	这些物品可用于喂食棕色哞菇
+移除会使其不能用于合成迷之炖菜
+minecraft:fishes	海豚会游向持有这些物品的玩家，用它们喂养海豚会使海豚“信任”你
+minecraft:creeper_drop_music_discs	苦力怕被骷髅杀死后可以掉落的物品
+minecraft:arrows	这些物品可以像箭一样被射出和捡起
+minecraft:beacon_payment_items	这些物品可以放置在信标GUI中以选择效果
+minecraft:planks	这些物品可以在铁砧中修复木质工具和盾牌
