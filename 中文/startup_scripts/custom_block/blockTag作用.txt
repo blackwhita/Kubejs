@@ -1,0 +1,57 @@
+minecraft:enderman_holdableats	末影人可以捡起这些方块
+minecraft:dragon_immune	末影龙无法破坏这些方块
+minecraft:wither_immune	凋灵无法破坏这些方块
+minecraft:wither_summon_base_blocks	可以用来搭建凋灵的方块
+minecraft:hoglin_repellents	疣猪兽会远离这些方块
+minecraft:logs	鹦鹉可以在这些方块上栖息
+影响周围树叶方块的方块状态 distance
+树生长时可以替代这些方块
+minecraft:strider_warm_blocks	炽足兽不在这些方块当中时会打寒颤
+minecraft:guarded_by_piglins	玩家破坏这些方块会激怒附近的猪灵，不影响打开会激怒猪灵的方块
+minecraft:piglin_repellents	猪灵会避开这些方块
+minecraft:flowers	蜜蜂可以授粉并记住这些方块的位置
+邻近的树苗生长后有几率带有蜂巢
+minecraft:bee_growables	当蜜蜂对这些植物进行授粉时，它们会生长一个阶段，从该标签中删除方块没有效果
+minecraft:beehives	如果将蜂巢或蜂箱移除，则蜜蜂不再会为它们填充蜂蜜，用带有玻璃瓶或剪刀的发射器也不会清除其中的蜂蜜
+minecraft:campfires	蜜蜂、鹦鹉和海龟会尝试避开
+营火使用这个标签来确定它们是否可被打火石点燃
+喷溅型水瓶可将其方块状态变为 lit=false
+minecraft:sand	海龟蛋可以在这些方块上孵化
+minecraft:beds	猫可以坐或睡在这些方块上
+村民可以睡在这些方块上
+幼年村民可以跳到这些方块上
+minecraft:prevent_mob_spawning_inside	生物不能在这些方块里生成
+minecraft:valid_spawn	用于确定位置是否是玩家的有效出生位置
+minecraft:climbable	玩家进入该方块时是否可以攀爬
+minecraft:soul_speed_blocks	穿着附有灵魂疾行魔咒的靴子在这些方块上的行走速度会得到提高
+minecraft:wool	这些方块可以被使用剪刀以5倍的速度破坏
+放在这些方块上的音符盒会发出吉他音效
+minecraft:leaves	这些方块将剪刀识别为正确的工具，使用剑摧毁时速度是正常情况下的1.5倍，使用剪刀破坏的速度是正常情况下的15倍
+不阻碍任何地形特征的生成
+用于确定某些方块的是否可以放置其上
+鹦鹉和豹猫可以在这些方块中生成
+minecraft:portals	当骑着一个实体的实体从其上脱离时，它将不会落在在这些方块中以防止不需要的传送，而是会脱离在被骑乘的实体的位置
+minecraft:rails	检测是否与铁轨相连。矿车是否可在此方块上行驶。检测是否可以放置矿车。向此标签添加其他方块会导致游戏崩溃。TNT矿车位于这些方块内时，不会破坏所在位置的方块和下方的方块。
+minecraft:fences	可以将拴绳连接到这些方块
+minecraft:anvil	如果将原版三种铁砧移除，则它们不再可以打开GUI
+该标签包含的铁砧的下落方块形式、以及其它方块的使用命令召唤的下落方块形式，可以伤害实体
+minecraft:underwater_bonemeals	当在暖洋生物群系中在水下使用骨粉时，该标签中的方块将取代水源方块（在5个水平块和2个垂直块内）。如果该标记中的方块是自定义的，则该行为将应用于任何生物群系中的水源方块。这些方块在默认情况下不会含水
+minecraft:jungle_logs	可可豆可种植在这些方块上
+minecraft:beacon_base_blocks	可用于信标基座
+minecraft:bamboo_plantable_on	竹子可种植在该方块上
+minecraft:mushroom_grow_block‌	其之上的蘑菇可以无视光照放下且可以被骨粉催熟为巨型蘑菇
+minecraft:soul_fire_base_blocks	灵魂火会在这些方块上燃烧
+minecraft:wall_post_override	会使方块下方的墙变成柱子
+minecraft:fire	不影响且可用于激活有效的未激活下界传送门
+不会阻挡沙子等方块掉落
+能够扑灭火焰的药水会移除这些方块
+minecraft:saplings	树生长时可以替代这些方块
+minecraft:base_stone_overworld‌	生成世界时，主世界地下的石头中的点缀(砂砾堆、泥土堆、石头变种堆、矿脉、被虫蚀的方块)可以生成在这些方块的位置
+minecraft:base_stone_nether‌	生成世界时，下界的远古残骸可以生成在这些方块的位置
+minecraft:corals	用于生成珊瑚礁
+minecraft:coral_blocks	用于生成珊瑚礁
+对着该方块顶部的单个海泡菜使用骨粉会使其生长出更多的海泡菜
+minecraft:infiniburn_overworld	维度类型为 minecraft:overworld 的维度中火焰可在这些方块上永久燃烧
+minecraft:infiniburn_nether	维度类型为 minecraft:the_nether 的维度中火焰可在这些方块上永久燃烧
+minecraft:infiniburn_end	维度类型为 minecraft:the_end 的维度中火焰可在这些方块上永久燃烧
+minecraft:impermeable	流体和蜂蜜颗粒不会穿过这些方块
