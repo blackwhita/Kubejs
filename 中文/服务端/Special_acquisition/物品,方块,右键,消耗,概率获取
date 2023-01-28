@@ -10,4 +10,4 @@ onEvent('block.left_click', event => {  //石子敲成燧石碎片
             rocks = 0;
         }
     }
-}) 
+}) //1.18.2
