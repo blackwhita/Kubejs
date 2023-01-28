@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html>
 <table class="wikitable stikitable">
 <tbody><tr>
 <th>标签名称
@@ -56,4 +54,3 @@
 <li>用于是否将火焰熄灭。</li>
 <li>用于Air标签是否在此液体中减少。</li></ul>
 </td></tr></tbody></table>
-</html>
