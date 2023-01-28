@@ -1,0 +1,13 @@
+var rocks = 0;
+onEvent('block.left_click', event => {  //石子敲成燧石碎片
+    if (event.player.mainHandItem.hasTag('item') && event.player.mainHandItem.count > 1 && (event.block.hasTag('blockTag') || event.block.hasTag('blockTag'))) {
+        rocks++;
+        if (rocks > 1) {
+            if (Math.random() > 0.5) { //随机0-1，0.5即为50%
+                event.player.give('item')
+            }
+            event.item.count--;
+            rocks = 0;
+        }
+    }
+}) 
