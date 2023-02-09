@@ -13,7 +13,7 @@
   |自定义UI|KubeJS UI|https://www.mcmod.cn/class/5185.html|https://www.curseforge.com/minecraft/mc-mods/kubejs-ui|
   |自定义战利品|LootJS|https://www.mcmod.cn/class/6327.html|https://www.curseforge.com/minecraft/mc-mods/lootjs|
   |自定义教程|PonderJS/Ponder for KubeJS|https://www.mcmod.cn/class/4979.html/https://www.mcmod.cn/class/8371.html|https://www.curseforge.com/minecraft/mc-mods/ponderjs|
-  |自定义爬虫|KubeJS Koro Extra Tools|https://www.mcmod.cn/class/8371.html|未知|
+  |自定义爬虫|KubeJS Koro Extra Tools|https://www.mcmod.cn/class/8371.html|https://github.com/KenRouKoro/KoroUtils/releases|
   |更多事件|MoreJS|https://www.mcmod.cn/class/8760.html|https://www.curseforge.com/minecraft/mc-mods/morejs|
   |离线文档|KubeJS Offline Documentation|https://www.mcmod.cn/class/8832.html|https://www.curseforge.com/minecraft/mc-mods/kubejs-offline|
 
