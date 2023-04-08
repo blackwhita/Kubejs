@@ -1,0 +1,11 @@
+//
+{
+    "type":"immersiveengineering:mixer",
+    "inputs":[
+        {"count":value,"base_ingredient":{"tag":"tag"}},
+        {"tag":"tag"}
+    ],
+    "result":{"fluid":"fluid","amount":value},
+    "fluid":{"tag":"fluidTag","amount":value},
+    "energy":value
+}

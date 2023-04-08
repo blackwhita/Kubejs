@@ -1,0 +1,16 @@
+//
+{
+    "type":"immersiveengineering:mineral_mix",
+    "ores":[
+        {"chance":value,"output":{"tag":"item"}},
+        {"chance":value,"output":{"item":"item"}},
+        {
+            "conditions":[{"value":{"tag":"tag","type":"forge:tag_empty"},"type":"forge:not"}],
+            "chance":value,
+            "output":{"tag":"tag"}
+            }
+        ],
+    "dimensions":["world"],
+    "weight":value,
+    "fail_chance":value
+}
