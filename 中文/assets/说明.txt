@@ -1,0 +1,34 @@
+本文件夹内需要创建以小写英文开头的文件，否则会出现异常报错
+
+材质覆盖：
+morphtool文件夹为覆盖材质文件
+morphtool是模组名
+textures是表示你覆盖的是材质（必须）
+tool.png是需要覆盖的材质的名字
+
+自定义物品：
+你可以在这个文件夹创建任何文件并添加材质
+但是你创建的文件中必须包含textures，
+你可以在其中添加你的材质
+支持textures内镶嵌文件夹的行为
+
+本地化语言文件
+在任意已创建的文件夹中创建lang文件
+在lang中创建你想要改写的语言文件
+例如：
+当你采用中文时，你可以创建zh_cn.json
+当你采用英文时，你可以创建en_us.json
+在其中添加你的代码
+代码规格如下：
+{
+    "种类.模组名.物品id": "你需要翻译的地方"
+}
+种类包括：block方块,item物品,fluid流体，entiy生物
+本地化的前提是游戏中必须有该物品
+下面我创建了一个物品
+通过kjs_hand获取的物品id：'emendatusenigmatica:aluminum_ingot'
+通过理性的判断可以知道这个东西是个物品，不能放置
+于是有了以下代码
+{
+    "item.emendatusenigmatica.aluminum_ingot": "铝锭"
+}
