@@ -1,0 +1,32 @@
+id 可有可无，如果没有 id，kjs 会默认提供一个 id。
+The ID can be optional. If there is no ID, kjs will default to providing an ID.
+
+item 是物品 id
+Item is the item id
+
+fluid 是流体id，你可以获取流体桶的 id，然后删去桶的 id
+Fluid is the fluid ID, you can obtain the ID of the fluid bucket and then delete the bucket ID
+
+block 是方块 id，也算物品的一部分，但是必须是可放置的方块
+Block is the block ID and also a part of the item, but it must be a placeable block
+
+tag 是标签，例如'forge:ingots/iron'
+Tag is a label, such as' forge: ingots/iron '
+
+fluidTag 是流体 tag
+FluidTag is a fluid tag
+
+value 是数字，可以是小数也可以是整数，视情况而定
+Value is a number, which can be either a decimal or an integer, depending on the situation
+
+有关mod的配方中
+第一种是用于新手，已经做好的批量配方，可以直接使用
+第二种为双斜杠后面的，提供源配方改写用的，避免翻找mod麻烦
+第三种叹号后面的，是添加kjs相关附属后可支持的配方
+In the formula related to mod
+The first type is for beginners, already prepared batch formulas that can be directly used
+The second type is after the double slash, providing source formula rewriting to avoid the trouble of searching for mods
+After the third exclamation mark, there are formulas that can be supported by adding kjs related accessories
+
+input 默认为输入，output 默认为输出
+Input defaults to input, output defaults to output
